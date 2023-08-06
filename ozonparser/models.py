@@ -10,6 +10,7 @@ class Product(models.Model):
     discount = models.TextField(null=True)
     timeid =  models.BigIntegerField()
     url = models.TextField()
+    
     def __str__(self):
         return self.name
     

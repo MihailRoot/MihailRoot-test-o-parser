@@ -6089,3 +6089,104 @@ console.error: ({})
 DevTools listening on ws://127.0.0.1:42443/devtools/browser/a4b0ba90-075f-47da-9a0e-ffcaa9b9a7ac
 1691330802290	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
 1691330811373	Marionette	INFO	Stopped listening on port 38355
+1691363332265	geckodriver	INFO	Listening on 127.0.0.1:45465
+1691363332764	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ed" "--remote-debugging-port" "51913" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileg1tOUh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1691363333478	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -excludeSwitches\n"
+console.error: "Warning: unrecognized command line flag -disable-blink-features\n"
+1691363333549	Marionette	INFO	Listening on port 44309
+WebDriver BiDi listening on ws://127.0.0.1:51913
+Read port: 44309
+1691363333614	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+kf.i18n: KLocalizedString: Using an empty domain, fix the code. msgid: "Mozilla Firefox" msgid_plural: "" msgctxt: ""
+console.error: ({})
+DevTools listening on ws://127.0.0.1:51913/devtools/browser/e4afe5e6-f40a-4d1c-820e-a782a02ad386
+1691363335980	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1691363344659	Marionette	INFO	Stopped listening on port 44309
+1691363400096	geckodriver	INFO	Listening on 127.0.0.1:40035
+1691363400597	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "45895" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLeo0VG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1691363401299	Marionette	INFO	Marionette enabled
+1691363401367	Marionette	INFO	Listening on port 40899
+WebDriver BiDi listening on ws://127.0.0.1:45895
+Read port: 40899
+1691363401567	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+kf.i18n: KLocalizedString: Using an empty domain, fix the code. msgid: "Mozilla Firefox" msgid_plural: "" msgctxt: ""
+console.error: ({})
+DevTools listening on ws://127.0.0.1:45895/devtools/browser/06e73727-653f-4d1c-9199-73eb84868ffa
+1691363403127	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1691363409452	Marionette	INFO	Stopped listening on port 40899
+1691363411576	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1691363486748	geckodriver	INFO	Listening on 127.0.0.1:57223
+1691363487251	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "57589" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilenOUGwi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1691363487947	Marionette	INFO	Marionette enabled
+1691363488017	Marionette	INFO	Listening on port 45879
+WebDriver BiDi listening on ws://127.0.0.1:57589
+Read port: 45879
+1691363488215	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+kf.i18n: KLocalizedString: Using an empty domain, fix the code. msgid: "Mozilla Firefox" msgid_plural: "" msgctxt: ""
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57589/devtools/browser/441cc51d-9692-4cfe-a0cb-9cb0654c03df
+1691363489875	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1691363495031	Marionette	INFO	Stopped listening on port 45879
+1691363502844	geckodriver	INFO	Listening on 127.0.0.1:36189
+1691363503348	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "49825" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile5chrSj"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691363503796	Marionette	INFO	Marionette enabled
+1691363503855	Marionette	INFO	Listening on port 34381
+WebDriver BiDi listening on ws://127.0.0.1:49825
+Read port: 34381
+1691363504062	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+kf.i18n: KLocalizedString: Using an empty domain, fix the code. msgid: "Mozilla Firefox" msgid_plural: "" msgctxt: ""
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:49825/devtools/browser/74240808-1d60-48d4-a64c-967dd7a93e4f
+1691363505431	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1691363514114	Marionette	INFO	Stopped listening on port 34381
+1691363529654	geckodriver	INFO	Listening on 127.0.0.1:52413
+1691363530157	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... ss" "--remote-debugging-port" "51775" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileoiRIj2"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691363530640	Marionette	INFO	Marionette enabled
+1691363530704	Marionette	INFO	Listening on port 38285
+WebDriver BiDi listening on ws://127.0.0.1:51775
+Read port: 38285
+1691363530900	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+kf.i18n: KLocalizedString: Using an empty domain, fix the code. msgid: "Mozilla Firefox" msgid_plural: "" msgctxt: ""
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:51775/devtools/browser/1bcaf65d-f7e6-4156-b462-5748daa58900
+1691363532367	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1691363541216	Marionette	INFO	Stopped listening on port 38285

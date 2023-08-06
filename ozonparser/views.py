@@ -11,6 +11,7 @@ class ProductListAPIView(generics.ListAPIView):
 
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
+
 class ProductRetrieveAPIView(generics.RetrieveAPIView):
 
     queryset = Product.objects.all()
@@ -32,4 +33,4 @@ class ParseProductsAPIView(APIView):
 
 def url(request,id):
     getid = Product.objects.filter(id = id).last()
-    return  HttpResponse('<meta http-equiv="refresh" content="0; url=https://www.ozon.ru' + getid.url +'">' )
+    return  HttpResponse('<meta http-equiv="refresh" content="0; url=https://www.ozon.ru' + getid.url +'">' ) ##simple url shorter

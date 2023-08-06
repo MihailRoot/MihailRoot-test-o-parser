@@ -19,11 +19,9 @@ def process(products_count):
     model = apps.get_model(app_label='ozonparser',model_name='Product')
 
     options = FirefoxOptions()
-    options.add_argument("-excludeSwitches")
-    options.add_argument('-useAutomationExtension')
-    options.add_argument("--disable-blink-features=AutomationControlled")
-
-    with webdriver.Firefox(options=options) as wd:
+    options.headless
+    options.add_argument('--headless')
+    with webdriver.Firefox(options=options,) as wd:
         data = []
         url = "https://www.ozon.ru/seller/1/products/"
         wd.get(url)
