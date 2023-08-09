@@ -6,7 +6,6 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from ozonparser.tasks import result
 
 class Tgpotok(threading.Thread):
-
     def __init__(self):
         super(Tgpotok,self).__init__()
 
@@ -39,4 +38,7 @@ class Tgpotok(threading.Thread):
         self.updater.idle()
 
     def run(self):
-        self.main()
+        try:
+            self.main()
+        except:
+            pass
