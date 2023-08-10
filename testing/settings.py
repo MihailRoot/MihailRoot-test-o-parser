@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+import os
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -82,10 +84,10 @@ WSGI_APPLICATION = 'testing.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'test',
-        'USER': 'root',
-        'PASSWORD': '89534012',
-        'HOST': '127.0.0.1',
+        'NAME': f'{os.environ["MYSQL_DATABASE"]}',
+        'USER': f'{os.environ["MYSQL_USER"]}',
+        'PASSWORD': f'{os.environ["MYSQL_PASSWORD"]}',
+        'HOST': f'{os.environ["MYSQL_HOST"]}',
         'PORT': '3306',
     }
 }
