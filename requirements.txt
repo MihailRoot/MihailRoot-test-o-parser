@@ -5,9 +5,11 @@ django-adminlte3==0.1.6
 django-json-widget==1.1.1
 djangorestframework==3.14.0
 drf-yasg==1.21.7
+
 beautifulsoup4==4.12.2
 py==1.11.0
 python-telegram-bot==20.4
 redis==4.6.0
 requests==2.31.0
 selenium==4.11.2
+mysqlclient==2.1.1
